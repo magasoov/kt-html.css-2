@@ -1,0 +1,115 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <form>
+                <section>
+                    <h2>Coffee Blog</h2>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="title" class="td1"><b>Название напитка</b></label>
+                            </td>
+                            <td>
+                                <input type="text" id="title" name="title" placeholder="Американо">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="sort" name="sort" class="td2"><b>Сорт кофе</b></label>
+                            </td>
+                            <td>
+                                <select name="sort" id="sort">
+                                    <option>Арабика</option>
+                                    <option>Арабика</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="strong" class="td3"><b>Крепость обжарки</b></label>
+                            </td>
+                            <td>
+                                <div class="block1"> 
+                                <label id="strong">
+                                    <input type="radio" name="strong" value="Крепкая">Крепкая
+                                </label>
+                                <br>
+                                <label id="strong">
+                                    <input type="radio" name="strong" value="Средняя">Средняя
+                                </label>
+                                <br>
+                                <label id="strong">
+                                    <input type="radio" name="strong" value="Легкая">Легкая
+                                </label>
+                            </td>
+                        </tr>
+                    </div>
+                        <tr>
+                            <td>
+                                <label for="image" class="td4"><b>Изображение</b></label>
+                            </td>
+                            <td>
+                                <label id="image">
+                                    <input type="text" name="image" placeholder="ссылка">
+                                </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="cost"><b>Стоимость</b></label>
+                            </td>
+                            <td>
+                                <label id="cost">
+                                    <input type="number" name="cost" placeholder="200">
+                                </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="description" class="td5"><b>Описание</b></label>
+                            </td>
+                            <td>
+                                <textarea id="description" name="description" placeholder="Немного про напиток"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <input type="submit" value="Добавить напиток">
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+            </form>
+            <br>
+            <table id="table" class="table-1">
+                <tr>
+                    <td id="image">
+                        <b>Изображение</b>
+                    </td>
+                    <td id="image">
+                        <label id="title"><b>Название</b></label>
+                    </td>
+                    <td>
+                        <b>Сорт</b>
+                    </td>
+                    <td>
+                        <label for="strong"><b>Крепость обжарки</b></label>
+                    </td>
+                    <td>
+                        <b>Стоимость</b>
+                    </td>
+                    <td>
+                        <b>Описание</b>
+                    </td>
+                </tr>
+            </table>
+            <script src="https://queen-leksa.github.io/111/script.js"></script>
+        </body>
+        </html>

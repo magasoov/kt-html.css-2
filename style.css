@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.td1{
+    padding-left: 21px;
+}
+.td2{
+    padding-left: 53px;
+}
+.td3{
+    padding-left: 13px;
+}
+.td4{
+    padding-left: 42px;
+}
+.td5{
+    padding-left: 61px;
+}
+ .menu{
+    padding-top: 98px;
+}
+.block1 input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+  
+    border: 2px solid #999;
+
+    
+  }
+  
+.block1 input:checked {
+    border: 6px solid rgb(128, 0, 0);
+  }
+  .table-1 td{
+    border: solid 1px;
+  }
